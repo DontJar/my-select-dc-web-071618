@@ -3,7 +3,6 @@ def my_select(collection)
   new_selleciton = []
   if collection.length == 0
     puts "Nothing here but us bears."
-
   else
     while i < collection.length
       if yield(collection[i])
